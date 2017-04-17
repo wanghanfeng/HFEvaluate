@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E21261091EA4A3050090260D /* HFEvaluate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E21260FF1EA4A3050090260D /* HFEvaluate.framework */; };
+		E212610E1EA4A3050090260D /* HFEvaluateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E212610D1EA4A3050090260D /* HFEvaluateTests.m */; };
+		E21261101EA4A3050090260D /* HFEvaluate.h in Headers */ = {isa = PBXBuildFile; fileRef = E21261021EA4A3050090260D /* HFEvaluate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E212610A1EA4A3050090260D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21260F61EA4A3040090260D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E21260FE1EA4A3050090260D;
+			remoteInfo = HFEvaluate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E21260FF1EA4A3050090260D /* HFEvaluate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HFEvaluate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21261021EA4A3050090260D /* HFEvaluate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFEvaluate.h; sourceTree = "<group>"; };
+		E21261031EA4A3050090260D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21261081EA4A3050090260D /* HFEvaluateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFEvaluateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E212610D1EA4A3050090260D /* HFEvaluateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFEvaluateTests.m; sourceTree = "<group>"; };
+		E212610F1EA4A3050090260D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E21260FB1EA4A3050090260D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21261051EA4A3050090260D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21261091EA4A3050090260D /* HFEvaluate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E21260F51EA4A3040090260D = {
+			isa = PBXGroup;
+			children = (
+				E21261011EA4A3050090260D /* HFEvaluate */,
+				E212610C1EA4A3050090260D /* HFEvaluateTests */,
+				E21261001EA4A3050090260D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E21261001EA4A3050090260D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E21260FF1EA4A3050090260D /* HFEvaluate.framework */,
+				E21261081EA4A3050090260D /* HFEvaluateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E21261011EA4A3050090260D /* HFEvaluate */ = {
+			isa = PBXGroup;
+			children = (
+				E21261021EA4A3050090260D /* HFEvaluate.h */,
+				E21261031EA4A3050090260D /* Info.plist */,
+			);
+			path = HFEvaluate;
+			sourceTree = "<group>";
+		};
+		E212610C1EA4A3050090260D /* HFEvaluateTests */ = {
+			isa = PBXGroup;
+			children = (
+				E212610D1EA4A3050090260D /* HFEvaluateTests.m */,
+				E212610F1EA4A3050090260D /* Info.plist */,
+			);
+			path = HFEvaluateTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E21260FC1EA4A3050090260D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21261101EA4A3050090260D /* HFEvaluate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E21260FE1EA4A3050090260D /* HFEvaluate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21261131EA4A3050090260D /* Build configuration list for PBXNativeTarget "HFEvaluate" */;
+			buildPhases = (
+				E21260FA1EA4A3050090260D /* Sources */,
+				E21260FB1EA4A3050090260D /* Frameworks */,
+				E21260FC1EA4A3050090260D /* Headers */,
+				E21260FD1EA4A3050090260D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HFEvaluate;
+			productName = HFEvaluate;
+			productReference = E21260FF1EA4A3050090260D /* HFEvaluate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E21261071EA4A3050090260D /* HFEvaluateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21261161EA4A3050090260D /* Build configuration list for PBXNativeTarget "HFEvaluateTests" */;
+			buildPhases = (
+				E21261041EA4A3050090260D /* Sources */,
+				E21261051EA4A3050090260D /* Frameworks */,
+				E21261061EA4A3050090260D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E212610B1EA4A3050090260D /* PBXTargetDependency */,
+			);
+			name = HFEvaluateTests;
+			productName = HFEvaluateTests;
+			productReference = E21261081EA4A3050090260D /* HFEvaluateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E21260F61EA4A3040090260D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					E21260FE1EA4A3050090260D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3MW34677PD;
+						ProvisioningStyle = Automatic;
+					};
+					E21261071EA4A3050090260D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3MW34677PD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E21260F91EA4A3040090260D /* Build configuration list for PBXProject "HFEvaluate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E21260F51EA4A3040090260D;
+			productRefGroup = E21261001EA4A3050090260D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E21260FE1EA4A3050090260D /* HFEvaluate */,
+				E21261071EA4A3050090260D /* HFEvaluateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E21260FD1EA4A3050090260D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21261061EA4A3050090260D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E21260FA1EA4A3050090260D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21261041EA4A3050090260D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E212610E1EA4A3050090260D /* HFEvaluateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E212610B1EA4A3050090260D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E21260FE1EA4A3050090260D /* HFEvaluate */;
+			targetProxy = E212610A1EA4A3050090260D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E21261111EA4A3050090260D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E21261121EA4A3050090260D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E21261141EA4A3050090260D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3MW34677PD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HFEvaluate/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itripbuyer.HFEvaluate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E21261151EA4A3050090260D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3MW34677PD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HFEvaluate/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itripbuyer.HFEvaluate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E21261171EA4A3050090260D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3MW34677PD;
+				INFOPLIST_FILE = HFEvaluateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itripbuyer.HFEvaluateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E21261181EA4A3050090260D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3MW34677PD;
+				INFOPLIST_FILE = HFEvaluateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itripbuyer.HFEvaluateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E21260F91EA4A3040090260D /* Build configuration list for PBXProject "HFEvaluate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21261111EA4A3050090260D /* Debug */,
+				E21261121EA4A3050090260D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E21261131EA4A3050090260D /* Build configuration list for PBXNativeTarget "HFEvaluate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21261141EA4A3050090260D /* Debug */,
+				E21261151EA4A3050090260D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E21261161EA4A3050090260D /* Build configuration list for PBXNativeTarget "HFEvaluateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21261171EA4A3050090260D /* Debug */,
+				E21261181EA4A3050090260D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E21260F61EA4A3040090260D /* Project object */;
+}
